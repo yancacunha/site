@@ -1,0 +1,28 @@
+body {
+	font-family: Arial, Verdana, Tahoma;
+	margin: 0;
+}
+header, footer {
+	width: 100%; /* largura */
+	background-color: purple; /* Cor de fundo */
+	box-shadow: 1px 1px 10px #CCC;
+	padding: 1px; /* margem dentro do objeto */
+	box-sizing: border-box;
+}
+
+header nav {
+	float: right;
+	margin-top: 30px;
+}
+header nav a {
+	text-decoration: none;
+	color:purple;
+	margin: 15px;
+}
+header nav a:hover {
+	Color: #333;
+
+}
+footer p {
+	text-align: center;
+}
