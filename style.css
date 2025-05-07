@@ -1,28 +1,85 @@
 body {
+	background: url(imagens/bg.jpg);
 	font-family: Arial, Verdana, Tahoma;
 	margin: 0;
+	font-size: 16px;
 }
-header, footer {
-	width: 100%; /* largura */
-	background-color: purple; /* Cor de fundo */
-	box-shadow: 1px 1px 10px #CCC;
-	padding: 1px; /* margem dentro do objeto */
+header{                                                      
+	width: 100%; 
+	background-color: black; 
+	box-shadow: 1px 1px 10px #ccc;
+	padding: 10px; 
 	box-sizing: border-box;
-}
+	display: inline-block;
 
+}
 header nav {
 	float: right;
-	margin-top: 30px;
+	margin-top: 70px;
 }
 header nav a {
-	text-decoration: none;
-	color:purple;
-	margin: 15px;
+
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 header nav a:hover {
-	Color: #333;
+	color: hotpink;
+
 
 }
-footer p {
-	text-align: center;
+ h1 {
+ 	text-align: center;
+ 	color: white;
+
+
+
+
+ }
+
+iframe {
+	display: block;
+	margin: 0 auto 20px auto;
+	border: 5px solid #000;
+	max-width: 800px;
+
 }
+
+footer {
+
+	text-align: center;
+	margin: 10px;
+	color: white;
+
+}
+
+.centralizar {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.abajogo {
+	background: purple;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px;
+	justify-content: center;
+	height: 100vh;
+	border-radius: 5px;
+	color: white;
+	transition: all 0.2s;
+}
+
+.abajogo:hover {
+	color: hotpink;
+}
+.enredo {
+	text-align: center;
+	color: yellowgreen;
+
+}
+
